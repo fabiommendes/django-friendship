@@ -29,5 +29,8 @@ install:
   - pip install -e .
   - pip install $DJANGO
   - pip install -r requirements-travisci.txt
+  - pip install codecov
 script:
   - python runtests.py
+after_success:
+  codecov
