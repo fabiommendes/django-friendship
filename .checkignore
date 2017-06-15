@@ -1,0 +1,4 @@
+# Namespace packages
+friendship/migrations/*
+example/**/*
+docs/conf.py
